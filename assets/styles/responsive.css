@@ -1,0 +1,28 @@
+/* for small devices  */
+@media screen and (max-width:576px) {
+    header .content {
+        flex-direction: column;
+    }
+
+    header .content .text {
+        max-width: 400px;
+    }
+
+    header .content .text h1 {
+        font-size: 2.5rem;
+    }
+}
+
+
+
+/* for medium devices  */
+@media screen and (min-width:576px) and (max-width:992px) {
+    header .content {
+        flex-direction: column;
+    }
+
+    header .content .text {
+        max-width: 800px;
+    }
+
+}

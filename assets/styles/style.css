@@ -6,3 +6,51 @@
     box-sizing: 0;
     font-family: "Poppins", sans-serif;
 }
+
+/* shared styles  */
+.color-text {
+    color: rgb(251, 162, 79);
+}
+
+.btn-primary {
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.5);
+    background: linear-gradient(69.40deg, rgb(251, 162, 79) -6.919%, rgb(255, 30, 30) 144.985%);
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 24px 32px;
+}
+
+.description {
+    color: rgb(130, 130, 130);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+/* header section */
+header .content {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 20px;
+
+}
+
+header .content .text {
+    max-width: 600px;
+}
+
+header .content .text h1 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+header .content .image .hero-image {
+    width: 100%;
+}
