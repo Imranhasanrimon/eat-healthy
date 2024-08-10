@@ -144,3 +144,16 @@ header .content .image .hero-image {
     font-size: 3rem;
     font-weight: 700;
 }
+
+/* footer section */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 40px 20px 115px 20px;
+}
+
+footer h3 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
