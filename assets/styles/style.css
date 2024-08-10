@@ -84,3 +84,42 @@ header .content .image .hero-image {
 .about .content .text {
     max-width: 450px;
 }
+
+.title {
+    color: rgb(103, 103, 103);
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* recipies section  */
+.recipy .heading {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recipy .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.recipy .container .box {
+    border-radius: 30px;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+.recipy .container img {
+    width: 100%;
+}
+
+.recipy .container {
+    h1 {
+        font-size: 1.75rem;
+        font-weight: 800;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}
