@@ -26,6 +26,17 @@
     .recipy .container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* follower section  */
+    .follower .content {
+        margin: 0 30px;
+    }
+
+    .follower .content .text {
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
 }
 
 
@@ -57,5 +68,14 @@
         padding: 30px;
     }
 
+    /* follower section  */
+    .follower .content {
+        margin: 0 100px;
+    }
 
+    .follower .content .text {
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
 }
