@@ -30,6 +30,12 @@
     margin-bottom: 50px;
 }
 
+section {
+    max-width: 1240px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
 /* header section */
 header .content {
     max-width: 1240px;
@@ -53,4 +59,28 @@ header .content .text h1 {
 
 header .content .image .hero-image {
     width: 100%;
+}
+
+/* about section */
+.about {
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about .content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .content img {
+    width: 338px;
+}
+
+.about .content .text {
+    max-width: 450px;
 }

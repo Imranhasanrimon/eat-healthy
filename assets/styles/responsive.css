@@ -11,6 +11,16 @@
     header .content .text h1 {
         font-size: 2.5rem;
     }
+
+    /* about section  */
+    .about .content {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .about .content .text {
+        max-width: 100%;
+    }
 }
 
 
@@ -25,4 +35,13 @@
         max-width: 800px;
     }
 
+    /* about section  */
+    .about .content {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .about .content .text {
+        max-width: 90%;
+    }
 }
